@@ -1,30 +1,32 @@
 #no is positive or negative 
-# num = int(input("Enter number :"))
 
-# if(num >=0):
-#     print("Number is positive")
-# else:
-#     print("Number is negative")
+num = int(input("Enter number :"))
+
+if(num >=0):
+    print("Number is positive")
+else:
+    print("Number is negative")
+    
 
 #check char is vowel or a consonants
 
-#char = input("Enter a character:")
+char = input("Enter a character:")
 
-# if char == "a" or char == "e" or char == "i" or char == "o" or char == "u" :
-#     print("Vowels")
-# else:
-#     print("Consonants")
+if char == "a" or char == "e" or char == "i" or char == "o" or char == "u" :
+    print("Vowels")
+else:
+    print("Consonants")
 
 
 # First no is divisible bye  the second
 
-# a = int(input("Enter no 1:"))
-# b = int(input("Enter no 2:"))
+a = int(input("Enter no 1:"))
+b = int(input("Enter no 2:"))
 
-# if a % b ==0:
-#     print("Divsible")
-# else:
-#     print("Not divisible")
+if a % b ==0:
+    print("Divsible")
+else:
+    print("Not divisible")
 
 
 # attendance
