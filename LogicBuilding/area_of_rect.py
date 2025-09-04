@@ -7,4 +7,4 @@ width = float(input("enter width:"))
 
 area = length * width 
 
-print(f"area {area}")
+print(f"area:  {area}")

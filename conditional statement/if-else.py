@@ -1,30 +1,32 @@
-# age = int(input("enter your age:"))
+age = int(input("enter your age:"))
 
-# if age >= 18:
-#     print("You can vote")
-# else:
-#     print("You cannot vote")
-
-
-# which no is greater 
-
-# num1 = int(input("Enter number 1"))
-# num2 = int(input("Enter number 2"))
-
-# if num1 > num2:
-#     print("Num 1 is greatest")
-# else:
-#     print("Num 2 is gratest")
+if age >= 18:
+    print("You can vote")
+else:
+    print("You cannot vote")
 
 
-# find no is odd or even
+#which no is greater 
 
-# a = int(input("Enter no :"))
+num1 = int(input("Enter number 1"))
+num2 = int(input("Enter number 2"))
 
-# if a %2 == 0:
-#     print("No. is Even")
-# else:
-#     print("No is odd")
+if num1 > num2:
+    print("Num 1 is greatest")
+else:
+    print("Num 2 is gratest")
+
+
+#find no is odd or even
+
+a = int(input("Enter no :"))
+
+if a %2 == 0:
+    print("No. is Even")
+else:
+    print("No is odd")
+
+
 
 phy = int(input("Enter physics marks:"))
 chem = int(input("Enter chem marks:"))
