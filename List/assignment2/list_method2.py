@@ -7,4 +7,4 @@ a=[3,4,5,6,7,2,8,9]
 # print(a)
 
 a.reverse()
-print(a)
+print(a)  
