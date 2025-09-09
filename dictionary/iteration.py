@@ -1,11 +1,14 @@
 x= {
-    "name": "kul",
-    "age": 21,
-    "gender": "male",
+   "english": 67,
+   "hindi": 89,
+   "maths": 56,
+   "science": 34,
 }
 
-for i in x.keys():
-    print(x[i])
-
+# for i in x.keys():
+#     print(x[i])
+total=0
 for i in x.values():
-    print(i)
+    total += i
+
+print(total)
